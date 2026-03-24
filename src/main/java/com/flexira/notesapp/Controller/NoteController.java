@@ -22,10 +22,10 @@ public class NoteController {
         return noteservice.createNote(note);
     }
 
-    @GetMapping("/{userId}")
-    public List<Note> getUserNote(@PathVariable String userId){
+    @GetMapping("/{username}")
+    public List<Note> getUserNote(@PathVariable String username){
 
-        return noteservice.getUserNote(userId);
+        return noteservice.getUserNote(username);
     }
 
     @DeleteMapping("/{id}")

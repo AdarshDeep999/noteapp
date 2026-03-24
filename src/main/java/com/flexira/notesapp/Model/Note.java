@@ -10,5 +10,5 @@ public class Note {
     private String id;
     private String title;
     private String content;
-    private String userId;
+    private String username;
 }

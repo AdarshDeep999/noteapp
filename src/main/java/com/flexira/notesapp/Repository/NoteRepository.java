@@ -6,7 +6,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import java.util.List;
 
 public interface NoteRepository extends MongoRepository<Note,String>{
-    List<Note> findByUserId(String userId);
-
-    Boolean existsByUserId(String userId);
+    List<Note> findByUsername(String username);
 }
