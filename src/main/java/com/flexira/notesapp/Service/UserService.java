@@ -21,6 +21,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
+    /*
     public List<User> getAllUser(){
         return userRepository.findAll();
     }
@@ -37,5 +38,8 @@ public class UserService {
         userRepository.deleteByUsername(username);
         return "User deleted!";
     }
+
+     */
+
 
 }

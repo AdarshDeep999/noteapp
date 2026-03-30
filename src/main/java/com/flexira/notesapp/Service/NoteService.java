@@ -50,10 +50,12 @@ public class NoteService {
         note.setId(id);
         return noteRepository.save(note);
     }
-
+/*
     public List<Note> getAllNote(){
         return noteRepository.findAll();
     }
+
+ */
 
 
 }
